@@ -13,7 +13,7 @@ const (
 	// SLIPluginVersion is the version of the plugin spec.
 	SLIPluginVersion = "prometheus/v1"
 	// SLIPluginID is the registering ID of the plugin.
-	SLIPluginID = "sloth-common/coredns/availability"
+	SLIPluginID = "commixon/coredns/availability"
 )
 
 var queryTpl = template.Must(template.New("").Option("missingkey=error").Parse(`
